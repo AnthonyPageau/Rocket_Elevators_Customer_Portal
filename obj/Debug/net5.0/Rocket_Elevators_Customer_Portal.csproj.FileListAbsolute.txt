@@ -150,5 +150,5 @@ C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Rocket_El
 C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Shared\Intervention.cshtml.g.cs
+C:\Users\User\week11\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Intervention.cshtml.g.cs
