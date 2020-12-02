@@ -14,6 +14,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using System.Net.Http;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Rocket_Elevators_Customer_Portal.Models;
 
 namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
 {
@@ -77,6 +80,9 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
             var client = new HttpClient();
             var response = await client.GetAsync("https://rest-api-foundation.azurewebsites.net/api/Customer");
             var content = response.Content.ReadAsStringAsync().Result;
+            var test2 = JsonSerializer.Deserialize<List<Customer>>(content);
+            var test3 = test2[0].company_name;
+            Console.WriteLine(test3);
             if (content.Contains(Input.Email))
             {
                 if (ModelState.IsValid)

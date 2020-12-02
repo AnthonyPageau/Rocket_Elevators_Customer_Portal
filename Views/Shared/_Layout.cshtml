@@ -10,7 +10,6 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <img src="~/images/logo.png" height="100"/>
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Customer Portal - Rocket Elevators</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -24,10 +23,16 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Intervention" asp-action="Products">Product Management</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Intervention">Intervention</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Intervention">Intervention</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Intervention" asp-action="Products">Batteries</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Intervention">Columns</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Intervention">Elevators</a>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Intervention";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row ">
+    <div class="col-sm d-flex justify-content-center align-items-center">
+        <h1>Resquest a intervention</h1>
+    </div>
+</div>
+<form action="../Home/NeedIntervention" method="post">
+    <div class="col-4">
+
+        <div class="form-row">
+            <div class="col-sm">
+                <label for="building">Building List</label>
+                <select class="form-control" id="building" name="building">
+                    <option value="0">Select</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm">
+                <label for="battery">Batterie List</label>
+                <select class="form-control" id="battery" name="battery">
+                    <option value="0">Select</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm">
+                <label for="column">Column List</label>
+                <select class="form-control" id="column" name="column">
+                    <option value="0">Select</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm">
+                <label for="elevator">Elevator List</label>
+                <select class="form-control" id="elevator" name="elevator">
+                    <option value="0">Select</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm">
+                <label for="description">Description List</label>
+                <textarea class="form-control" rows="5" id="description" name="description"></textarea>
+            </div>
+        </div>
+
+        <input value="Submit" class="btn btn-primary" type="submit">
+    </div>
+</form>
